@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+}
+
+
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 21px;
+	color: #8c8c8c;
+	text-align: center;
+}
+
+body a {
+	text-decoration: none;
+	color: #a3a3a3;
+}
+header {
+	background: #ffffff;
+	height: 70px;
+
+}
+
+header, .slides{
+	max-width: 70%;
+	margin: 0 auto;
+	color: #fff;
+}
+header nav {
+	float: right;
+	margin-top: 29px;
+	font-size: 14px;
+}
+
+header li {
+	display: inline;
+	margin-right: 40px;
+}
+header li {
+	color: #a3a3a3;
+}
+
+header .activelink a {
+	color: #f63c3c;
+}
+header li.activelink {
+	color: #f63c3c;
+	border-bottom: solid 4px #f63c3c;
+	padding-bottom: 20px;
+}
+
+li:last-child {
+	margin-right: 0px;
+}
+
+header img {
+	float: left;
+}
+
+.hero {
+	background: url("../img/background.jpg") no-repeat center center;
+	background-size: cover;
+	height: 1011px;
+}
+
+section li.active {
+	display: block;
+	position: relative;
+}
+
+.pagination li {
+	opacity: 0.5;
+}
+
+.pagination li.active {
+	opacity: 1;
+}
+
+.slides {
+	position: relative;
+	top: 30%;
+}
+
+.slides p{
+	position: relative;
+	top: 60px;
+	width: 770px;
+	margin: 0 auto;
+	line-height: 1.2;
+}
+
+.slides li {
+	display: none;
+}
+
+.button {
+	background: #fff;
+	padding: 18px 54px;
+	font-family: 'Teko';
+	font-weight: 400;
+	font-size: 20px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	position: relative;
+	top: 152px;
+
+}
+
+.pagination {
+	position: relative;
+	top: 690px;
+
+}
+.pagination li {
+	opacity: 0.5;
+	display: inline;
+	margin-right: 11px;
+}
+
+.pagination li.active {
+	opacity: 1;
+	display: inline;
+}
+
+h1 {
+	font-family:'Teko';
+	font-size: 94px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 auto;
+	letter-spacing: 13px;
+}
+
+
+h2{
+	font-family: 'Teko';
+	font-weight: 400;
+	font-size: 40px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 52px;
+}
+h3 {
+	font-family: 'Teko';
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 52px;
+
+
+article {
+	max-width: 100%;
+}
+
+figure img {
+ width: 50%;
+}

@@ -3,58 +3,87 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Simple</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Teko:400,300|Titillium+Web:300' rel='stylesheet' type='text/css'>
 <!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</style>
 </head>
 <body>
 	<header>
-		<a href="#" target="_blank"><img src="img/logo.jpg" alt="logo"></a>
+		<a href="#" class="logo"target="_blank"><img src="img/logo.jpg" alt="logo"></a>
 		<nav>
 			<ul>
-				<li><a href="#" target="_blank">Home</a></li>
-				<li><a href="#" target="_blank">Projects</a></li>
-				<li><a href="#" target="_blank">About</a></li>
-				<li><a href="#" target="_blank">Services</a></li>
-				<li><a href="#" target="_blank">Blog</a></li>
-				<li><a href="#" target="_blank">Get in Touch</a></li>
+				<li class="activelink"><a href="#">Home</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Get in Touch</a></li>
 			</ul>
 		</nav>
 	</header>
-	<section>
-		<h1>We build websites and apps that people love</h1>
-		<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
-		<button>Explore More</button>
+	<section class="hero">
+		<ul class="slides">
+			<li class="active">
+				<h1>We build websites and apps that people love</h1>
+				<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+				<a href="#" class="button" target="_blank">Explore More</a></li>
+			<li>
+				<h1>We build websites and apps that people love</h1>
+				<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+				<a href="#" target="_blank">Explore More</a></li>
+			<li>
+				<h1>We build websites and apps that people love</h1>
+				<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+				<a href="#" target="_blank">Explore More</a></li>
+			<li>
+				<h1>We build websites and apps that people love</h1>
+				<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+				<a href="#" target="_blank">Explore More</a></li>
+		</ul>
+		<nav class="pagination">
+			<ul>
+				<li><a href="#" target="_blank"><img src="img/activeitem.jpg"></a></li>
+				<li class="active"><a href="#" target="_blank"><img src="img/activeitem.jpg"></a></li>
+				<li><a href="#" target="_blank"><img src="img/activeitem.jpg"></a></li>
+				<li><a href="#" target="_blank"><img src="img/activeitem.jpg"></a></li>
+			</ul>
+		</nav>
 	</section>
 	<main>
 		<h2>My projects</h2>
-		<figure>
-		 	 <img src="img/figure1.jpg" alt="Model S Catalog">
+		<article>
+		 	 <figure>
+		 	 	<a href="#" target="blank"><img src="img/figure1.jpg" alt="Model S Catalog"></a>
+		 	 	<figcaption></figcaption>
+		 	 </figure>
 		 	 <h3>Model S Catalog</h3>
 		 	 <p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
-		</figure>
-		<figure>
+		</article>
+		<article>
 			<img src="img/figure2.jpg" alt="Discovery Channel Ipad">
 			<h3>Discovery Channel iPad</h3>
 			<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
-		</figure>
-		<figure>
+		</article>
+		<article>
 			<img src="img/figure3.jpg" alt="Stuhrling">
 			<h3>Stuhrling</h3>
 			<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
-		</figure>
-		<figure>
+		</article>
+		<article>
 			<img src="img/figure4.jpg" alt="Infinity Spaces">
 			<h3>Infinity Spaces</h3>
 			<p>Infinity &infin; is an abstract concept describing something without any limit and is relevant in a number of fields</p>
-		</figure>
+		</article>
 		<a href="#" target="_blank">Show More Projects</a>
 	</main>
 	<section>
 		<h2>Showcasing your work has never been more fun</h2>
 		<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
-		<button>get in touch</button>
+		<a href="#" target="_blank">get in touch</a>
 	</section>
 	<aside>
 		<h2>Stay Connected</h2>
